@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Canteen Queue Simulator</title>
+		<link rel="stylesheet" href="AA1Q46thRow.css">
+	</head>
+	<body>
+		<div id = "websiteHeader">
+			<h1>PHILIPPINE SCIENCE HIGHSCHOOL CARAGA REGION CAMPUS</h1>
+		</div>
+
+		<div id = "websiteBody">
+			<div id = "studentPanel">
+			<h1 id = "studentPTitle">Canteen Queue Simulator</h1>
+			<form id="studentForm" onsubmit="addToQueue(event)">
+				<input type="text" id="studentName" placeholder="Enter Your Name">
+				<input type="text" id="studentPurpose" placeholder="Purpose for Queueing">
+				<button type="submit">Submit</button>
+			</form>
+
+			<table id = "queueList">
+				<thead>
+					<tr>
+						<th>Student No.</th>
+						<th>Student Name</th>
+						<th>Purpose</th>
+					</tr>
+				</thead>
+				
+				<tbody id="queueData">
+
+				</tbody>
+			</table>
+			</div>
+			
+			<div id = "adminPanel">
+				<h1 id = "adminPTitle">Admin Panel</h1>
+				<ul id = "adminList"></ul>
+			</div>
+		</div>
+
+		<script src = "AA1Q46thRow.js"></script>
+		</body>
+
+</html>
